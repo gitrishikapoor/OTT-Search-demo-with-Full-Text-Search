@@ -1,0 +1,6 @@
+fastapi==0.141.1
+uvicorn==0.52.4
+google-cloud-spanner==3.70.0
+google-cloud-storage==3.13.1
+pydantic==2.13.4
+requests==2.34.2
