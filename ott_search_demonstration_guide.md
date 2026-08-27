@@ -32,7 +32,7 @@ This application demonstrates how **Google Cloud Spanner** consolidates all four
 
 The following diagram illustrates how the single-page application (SPA) communicates with the FastAPI backend, which harnesses the full power of Cloud Spanner to serve FTS, vector, and graph results in sub-millisecond latencies:
 
-![OTT Search Architecture](/usr/local/google/home/rikapoor/.gemini/antigravity-cli/brain/5ceb687c-9ebd-42ae-bf82-bb82510af211/ott_search_architecture_1787645681118.png)
+![OTT Search Architecture](./ott_search_architecture.png)
 
 ---
 
