@@ -9,14 +9,14 @@ A production-grade demonstration of **Multi-Modal Search & Graph Discovery** bui
 - **Full-Text Search (FTS):** Tokenized, sub-string, and n-gram lexical queries across multiple attributes (titles, synopses, cast, audio, subtitles).
 - **Semantic / Vector Search:** Dense 768-dimensional vector matching utilizing cosine similarity over Title + Synopsis descriptors.
 - **Hybrid Search:** Intelligent combining of lexical FTS matches and semantic vector distances using custom rank-fusion scoring.
-- **Spanner Property Graph (GQL):** Leverages Spanner's native Property Graph engine to execute multi-hop relational path-finding (e.g., cast-to-genre relationships, co-viewer affinities).
+- **Spanner Property Graph (GQL):** Leverages Spanner's native Property Graph engine to execute multi-hop relational path-finding (e.g., cast-to-genre relationships, co-viewer affinities). *Experience this in action inside any movie's detailed deep-dive modal!*
 - **Interactive UI:** Embedded, responsive React + Tailwind CSS dashboard providing instant search tabs, filters (Audio, Rating, Tier), and deep-dive metadata modals.
 
 ---
 
 ## 📂 Repository Contents
 
-- `app.py`: FastAPI backend serving the search endpoints and hosting the embedded SPA.
+- `app.py`: FastAPI backend serving the search endpoints and hosting the embedded single-page app (SPA).
 - `seed_db.py`: Complete database bootstrap script to populate schema tables, build relationships, and generate mock metadata.
 - `schema.ddl`: Complete Cloud Spanner database schema defining base entities, full-text search indexes, and the Property Graph topology.
 - `index.html`: Responsive single-page frontend application.
